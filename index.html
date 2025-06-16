@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Esteban C">
-    <meta name="keywords" content="biblioteca, tripleten, librería, recomendaciones, el arte de la guerra, meditaciones, manos a la obra, Llorar reír y vivir, mejorar, crecer, desarrollo, auto ayuda,">
+    <meta name="keywords" content="biblioteca, tripleten, librería, recomendaciones, el arte de la guerra, meditaciones, manos a la obra, Llorar reír y vivir">
     <meta name="description" content="Biblioteca"> <!--Aplique etiquetas meta en base a recomendaciones del revisor de código-->
     <title>Biblioteca Triple Peaks</title>
     <link rel="shortcut icon" href="favicon.ico" />
@@ -35,9 +35,9 @@
           </div>
           <img src="./images/inside_the_library.png" alt="Ilustración 'Dentro de la biblioteca'" class="header__image"/>
       </section>
-      <section class="header__footer" id="header__footer">
+      <div class="header__footer">
         <p class="header__address">Triple Peaks, 200 Success Avenue</p>
-      </section>
+      </div>
       </header>
 
     <main class="content">
@@ -237,39 +237,35 @@
         </section>
       </main>
 
-    <footer class="footer" id="footer">
+        <footer class="footer" id="footer">
+            <div class="footer__columns">
+                <div class="footer__column">
+                    <img src="./images/logo_white.svg" alt="Logotipo de la Biblioteca Triple Peaks blanco" class="footer__logo">
+                </div>
+                <div class="footer__content">
+                  <div class="footer__column footer__column_content_hour">
+                      <h3 class="footer__column-heading">Horario de apertura</h3>
+                      <ul class="footer__list">
+                        <li class="footer__list-item">Lunes a viernes: 9 a.m. —— 8 p.m.</li>
+                        <li class="footer__list-item">Sábados y domingos 10 a.m. —— 6 p.m.</li>
+                      </ul>
+                  </div>
 
-      <div class="footer__columns">
-
-          <img src="./images/logo_white.svg" alt="Logotipo de la Biblioteca Triple Peaks blanco" class="footer__logo">
-
-          <div class="footer__column">
-          <div class="footer__column_content_hours">
-            <h3 class="footer__column-heading"> Horario de apertura </h3>
-            <ul class="footer__list">
-              <li footer__list-item> <p> Lunes a viernes: 9 a.m. -- 8 p.m. </p> </li>
-              <li footer__list-item> <p>  Sábados y domingos 10 a.m. -- 6 p.m. </p> </li>
-            </ul>
-          </div>
-
-          <div class="footer__column_content_social">
-            <h3 class="footer__column-heading"> Redes Sociales </h3>
-            <ul class="footer__list">
-
-              <li class="footer__list-item">
-                <a href="#" class="footer__column-link"><img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__social-icon">  Facebook</a>
-              </li>
-
-              <li class="footer__list-item">
-                <a href="#" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Instagram logo" class="footer__social-icon"> Instagram</a>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-      </div>
-        <p class="footer__copyright"> © 2024 Esteban Castañeda </p>
-      </footer>
+                  <div class="footer__column footer__column_content_social">
+                      <h3 class="footer__column-heading">Redes sociales</h3>
+                      <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__column-link"><img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__social-icon">  Facebook</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Instagram logo" class="footer__social-icon"> Instagram</a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+            </div>
+                <p class="footer__copyright">© 2024 Esteban Castañeda</p>
+          </footer>
     </div>
   </body>
 </html>
